@@ -11,7 +11,10 @@ from machine import I2C, Pin
 from mp_i2c_lcd1602 import LCD1602
 from time import sleep_ms
 
-i2c = I2C(1, sda=Pin(9), scl=Pin(10))
+sda = Pin(0)
+scl = Pin(1)
+
+i2c = I2C(0, sda=sda, scl=scl, freq=400000)
 
 LCD = LCD1602(i2c)
 
