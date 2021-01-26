@@ -1,6 +1,7 @@
-# I2C LCD1602 MicroPython drive
+# I2C LCD1602 MicroPython Drive
+This has been modified by me to work with the raspberry pi Pico MC
 
-## main feathur
+## main fechure
 - display text in I2C LCD1602
 - LCD display on/off
 - LCD backlight on/off
