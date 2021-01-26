@@ -10,7 +10,7 @@
 from utime import sleep_ms
 from machine import I2C
 
-LCD_I2C_ADDR=const(63)
+LCD_I2C_ADDR = 63
 
 class LCD1602():
     def __init__(self, i2c, addr = 0):
